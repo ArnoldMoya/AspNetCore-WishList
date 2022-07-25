@@ -6,11 +6,6 @@ namespace WishList.Controllers
     {
         public IActionResult Index()
         {
-            return View();
-        }
-
-        public IActionResult Index()
-        {
             return View("/Home/Index");
         }
 
