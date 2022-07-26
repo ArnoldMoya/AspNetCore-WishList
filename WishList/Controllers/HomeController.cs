@@ -6,12 +6,12 @@ namespace WishList.Controllers
     {
         public IActionResult Index()
         {
-            return RedirectToPage("/Home/Index");
+            return View("Index");
         }
 
         public IActionResult Error() 
         {
-            return RedirectToPage("/Shared/Index");
+            return View("Error");
         }
     }
 }
